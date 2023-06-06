@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 float = 3.14159
-print(f"{float:.3}")
+print(f"{float:0.3}\n")
