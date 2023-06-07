@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print("{:c}".format(i), end='')
+i = 0
+while i < 26:
+    print('{:c}'. format(i + 97), end='')
+    i = i + 1
